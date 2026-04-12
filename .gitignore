@@ -1,0 +1,17 @@
+# Python bytecode (Sampah proses koding)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (WAJIB MASUK SINI!)
+# Kita gak mau upload folder veng bergiga-giga ke GitHub
+venv/
+env/
+.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS metadata
+.DS_Store
+Thumbs.db

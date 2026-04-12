@@ -1,0 +1,4 @@
+Model,Epochs_Run,LR,Batch_Size,Img_Size,Test_Accuracy,Precision_W,Recall_W,F1_Weighted,F1_Macro,Best_Val_Acc,Min_Val_Loss,Imbalance_Method,Augmentation
+ResNet-50,25,0.0001,32,224,0.8949,0.896,0.8949,0.8952,0.8877,0.856,0.5343,WeightedRandomSampler + CrossEntropyLoss(weight),"HFlip, VFlip, Rotation15, ResizedCrop, ColorJitter(0.05)"
+DenseNet-121,25,0.0001,32,224,0.8716,0.8813,0.8716,0.8739,0.8671,0.856,0.4869,WeightedRandomSampler + CrossEntropyLoss(weight),"HFlip, VFlip, Rotation15, ResizedCrop, ColorJitter(0.05)"
+EfficientNet-B0,25,0.0001,32,224,0.8716,0.8735,0.8716,0.8712,0.8664,0.8482,0.5062,WeightedRandomSampler + CrossEntropyLoss(weight),"HFlip, VFlip, Rotation15, ResizedCrop, ColorJitter(0.05)"
